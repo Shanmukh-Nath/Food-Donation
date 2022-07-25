@@ -10,11 +10,7 @@
 # Resolve links: $0 may be a link
 PRG="$0"
 # Need this for relative symlinks.
-steps {
-    echo 'Compile project'
-    sh "chmod +x gradlew"
-    sh "./gradlew clean build --no-daemon"
-}
+
 while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
     link=`expr "$ls" : '.*-> \(.*\)$'`

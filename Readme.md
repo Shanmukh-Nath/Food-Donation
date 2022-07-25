@@ -13,4 +13,4 @@ Food Donation Management provides the right channels for compassionate citizens 
 
 ### Screenshots
 
-![Landing Page](/Screenshots/landingpage.jpeg "Landing Page")
+<image src="/Screenshots/landingpage.jpeg" width='200'>
